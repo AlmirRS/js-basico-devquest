@@ -1,2 +1,2 @@
 var nomePessoa = prompt("Informe seu nome!")
-nomePessoa = alert("Bem vindo " + nomePessoa)
+nomePessoa = alert("Seja bem vindo " + nomePessoa)
