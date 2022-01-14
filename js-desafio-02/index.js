@@ -1,7 +1,7 @@
-var boletoPago = 123456789
+var boletoPago = true
 
-if( prompt(" Qual o numero do boleto? ") == boletoPago){
-    alert(" O boleto ta pago")
+if(boletoPago){
+    console.log("O boleto está pago")
 }else{
-   alert("O boleto não ta pago") 
+   console.log("O boleto não está pago") 
 }
