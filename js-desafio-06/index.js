@@ -3,7 +3,7 @@ function somar(numero1, numero2){
     let soma = numero1 + numero2; 
     return 'A soma dos dois números é: ' + soma;
 }
-let funcaoSoma = somar(1, 2)
+const funcaoSoma = somar(1, 2)
 console.log(funcaoSoma)
 
 //multiplicacao
@@ -11,7 +11,7 @@ function multiplicar(numero1, numero2){
     let multiplicacao = numero1 * numero2; 
     return 'A multiplicação dos dois números é: ' + multiplicacao;
 }
-let funcaoMultiplicacao = multiplicar(5, 2)
+const funcaoMultiplicacao = multiplicar(5, 2)
 console.log(funcaoMultiplicacao)
 
 //divisao
@@ -25,15 +25,15 @@ console.log(funcaoDivisao)
 //subtracao
 function subtrair(numero1, numero2){
     let subtrair = numero1 - numero2;
-    return 'A subtração dos dois numeros é: ' + subtrair
+    return 'A subtração dos dois numeros é: ' + subtrair;
 }
-let funcaoSubtracao = subtrair(10, 5)
+const funcaoSubtracao = subtrair(10, 5)
 console.log(funcaoSubtracao)
 
 //Resto da divisao, só pra treinar 
 function restoDaDivisao(numero1, numero2){
     let restoDaDivisao = numero1 % numero2;
-    return 'O resto da divisao dos dois numeros é: ' + restoDaDivisao;
+    return 'O resto da divisão dos dois numeros é: ' + restoDaDivisao;
 }
-let oQueSobrou = restoDaDivisao(14, 5)
+const oQueSobrou = restoDaDivisao(14, 5)
 console.log(oQueSobrou)
