@@ -1,7 +1,5 @@
 
-let a = 0
-let b = 2
 
-for( a; a < 11; a++) {
-    console.log("O dobro do numero "  + a + " é " + a * b)
+for(let X = 0; X < 11; X++){
+    console.log("O dobro do numero x é",  + X*2)
 }
